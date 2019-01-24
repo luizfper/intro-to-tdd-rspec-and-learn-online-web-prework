@@ -1,0 +1,5 @@
+require_relative './current_age_for_birth_year.rb'
+puts "que ano voce nasceu motherfucker?"
+birth_year=gets.to_i
+users_age = current_age_for_birth_year(birth_year)
+puts users_age
